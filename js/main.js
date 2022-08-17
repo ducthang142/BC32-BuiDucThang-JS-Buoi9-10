@@ -212,8 +212,7 @@ function display(employees) {
               employee.taiKhoan
             }')" data-toggle="modal"
             data-target="#myModal">Edit</button>
-            </td>
-            <td>
+            
             <button class="btn btn-danger" onclick="deleteEmployee('${
               employee.taiKhoan
             }')">Delete</button>
